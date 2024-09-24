@@ -1,0 +1,23 @@
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "Octobug Template",
+	"language": "en",
+	"home_page_url": "https://github.com/top-ghost/octobug",
+	"feed_url": "https://github.com/feed/feed.json",
+	"description": "Just setting up my Octobug",
+	"author": {
+		"name": "Your Name Here",
+		"url": "https://example.com/about-me/"
+	},
+	"items": [
+		{
+			"id": "https://github.com/intro/",
+			"url": "https://github.com/intro/",
+			"title": "oh hello",
+			"content_html": "<p>You've come across the generated site for Octobug, an Eleventy-based GitHub-hosted blogging tool. You should probably go read about it on <a href=\"https://github.com/top-ghost/octobug\">its GitHub repo</a> instead.</p>\n<p>Bye!</p>\n"
+	,
+			"date_published": "2024-09-21T00:00:00Z"
+		}
+		
+]
+}

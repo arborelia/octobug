@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
+	<title>Octobug Template</title>
+	<subtitle>Just setting up my Octobug</subtitle>
+	<link href="https://github.com/feed/feed.xml" rel="self"/>
+	<link href="https://github.com/top-ghost/octobug"/>
+	<updated>2024-09-21T00:00:00Z</updated>
+	<id>https://github.com/top-ghost/octobug</id>
+	<author>
+		<name>Your Name Here</name>
+		<email>youremailaddress@example.com</email>
+	</author>
+		
+		<entry>
+			<title>oh hello</title>
+			<link href="https://github.com/intro/"/>
+			<updated>2024-09-21T00:00:00Z</updated>
+			<id>https://github.com/intro/</id>
+			<content type="html">&lt;p&gt;You&#39;ve come across the generated site for Octobug, an Eleventy-based GitHub-hosted blogging tool. You should probably go read about it on &lt;a href=&quot;https://github.com/top-ghost/octobug&quot;&gt;its GitHub repo&lt;/a&gt; instead.&lt;/p&gt;
+&lt;p&gt;Bye!&lt;/p&gt;
+</content>
+		</entry>
+</feed>
