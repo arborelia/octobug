@@ -1,0 +1,24 @@
+---
+layout: layouts/home.njk
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.all
+  size: 10
+permalink: "/{% if pagination.pageNumber > 0 %}/{{ pagination.pageNumber }}{% endif %}/index.html"
+---
+
+{%set postslist = pagination.items %}
+{% include "postslist.njk" %}
+
+<ol>
+	<li>
+		{% if pagination.href.previous %}
+			<a href="{{ pagination.href.previous }}">Previous</a>
+		{% else %}Previous{% endif %}
+	</li>
+	<li>
+		{% if pagination.href.next %}
+			<a href="{{ pagination.href.next }}">Next</a>
+		{% else %}Next{% endif %}
+	</li>
+</ol>
